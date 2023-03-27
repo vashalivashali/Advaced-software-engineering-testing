@@ -18,7 +18,7 @@ class TestCalculator(unittest.TestCase):
         self.assertRaises(TypeError,p,6.4)  
     def test_exception(self):
         with self.assertRaises(TypeError):
-            p(7)
+            p(7.7)
 
 if __name__ == "__main__":
     unittest.main()
