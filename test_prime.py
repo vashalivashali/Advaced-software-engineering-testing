@@ -17,7 +17,7 @@ class TestPrime(unittest.TestCase):
             is_prime(-4)
     def test_typeerror_3(self):
         with self.assertRaises(TypeError):
-            is_prime(7)
+            is_prime(7.6)
 
 if __name__=='__main__':
     unittest.main()
